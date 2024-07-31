@@ -18,7 +18,3 @@ app.post("/login", (req: Request, res: Response) => {
   // Logika untuk login user
   res.send("User logged in");
 });
-
-app.listen(port, () => {
-  console.log(`Server running on port ${port}`);
-});
